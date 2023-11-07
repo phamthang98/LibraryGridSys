@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Library Grid System -->
+    <link rel="stylesheet" href="./grid.css">
+    <style>
+        .container {
+            text-align: center;
+        }
+        .course-item {
+            background-color: orange;
+            height: 260px;
+        }
+        h1 {
+            font-size: 25px;
+            color: #fff;
+            line-height: 260px;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<!-- 
+    Column: .col
+    Prefix class:
+        - c - mobile
+        - m - tablet
+        - l - PC
+ -->
+
+<body>
+    <div class="grid wide container">
+        <div class="row">
+            <!-- Ví dụ ở đây muốn hiện thị 4 khóa học trên 1 chiều ngang
+                Thì mặc định là 12 col mình chia cho 4 là bằng 3 thì mình
+                chọn l-3 cho giao diện PC -->
+            <div class="col l-3 m-6 c-6">
+                <div class="course-item">
+                    <h1>Course 1</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-6">
+                <div class="course-item">
+                    <h1>Course 2</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-6">
+                <div class="course-item">
+                    <h1>Course 3</h1>
+                </div>
+            </div>
+            <div class="col l-3 m-6 c-6">
+                <div class="course-item">
+                    <h1>Course 4</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
