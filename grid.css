@@ -26,6 +26,11 @@ body {
     margin-right: -4px;
 }
 
+.row.no-gutters {
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /* kích thước margin của row phụ thuộc vào kích thước padding
 của col -> đó là khoảng kích thước giữa các cột được goi là
 gutter */
@@ -33,6 +38,11 @@ gutter */
 .col {
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.row.no-gutters .col {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* Class bắt đầu bằng c dùng cho mobile */
