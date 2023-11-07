@@ -21,6 +21,9 @@ _Ví dụ:_
 ```
 **Nguyên tắc khi sử dụng thư viện**
 
+_Luôn để link css của thư viện lên trên_
+_Phải reset css và box-sizing: border-box_
+
 - Class grid luôn là class bắt buộc khi bắt đầu hệ thống. Nó chính là lưới(thường là phần cha, chứa Row và Column)
 - Sau class grid là class row chính là dòng(Dòng - chiều ngang, chứa Column)
 - Sau class row là class column(ở thư viện đặt là col) chính là cột(chứa nội dung/ thành phần trên website)
